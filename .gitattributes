@@ -1,0 +1,8 @@
+# 统一换行符：仓库内存 LF，避免 Windows 上出现「整个文件都改了」的 diff
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ico binary
