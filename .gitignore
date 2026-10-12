@@ -1,16 +1,18 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
 venv/
 
-# 运行期临时文件
+# 运行期临时文件（脚本会在工作目录生成）
 .zt_tmp/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
 
-# 论文 PDF（体积大，不入库）
+# 下载的论文 PDF（体积大，不入库）
+pdf/
 *.pdf
 
 # 编辑器 / 系统
